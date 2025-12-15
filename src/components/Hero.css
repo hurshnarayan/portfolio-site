@@ -35,7 +35,7 @@
 .greeting-bubble::after {
   content: "";
   position: absolute;
-  bottom: -10px;
+  bottom: -9.5px;
   left: 30px;
   width: 0;
   height: 0;
