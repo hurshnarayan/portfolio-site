@@ -96,21 +96,21 @@ const AboutPage = () => {
               <div className="col-content">
                 <div className="list-item">
                   <p className="item-title">
-                    B.Tech - Computer Scince & Engineering @{" "}
+                    B.Tech - Computer Scince & Engineering
+                    <br /> @
                     <span className="highlight">
-                      BMS Institute of Technology & Management
+                      {" BMS Institute of Technology & Management"}
                     </span>
                   </p>
                   <p className="item-subtitle">Bengaluru, Karnataka</p>
-                  <p className="item-date">August 2025 - May 2029</p>
+                  <p className="item-date">2025 - 2029</p>
                 </div>
                 <div className="list-item">
                   <p className="item-title">
                     Secondary Education @{" "}
                     <span className="highlight">Delhi Public School</span>
                   </p>
-                  <p className="item-subtitle">Dhanbad</p>
-                  <p className="item-date">Completed 2023</p>
+                  <p className="item-subtitle">Dhanbad, Jharkhand</p>
                 </div>
               </div>
             </div>

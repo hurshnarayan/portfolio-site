@@ -37,11 +37,21 @@ const About = () => {
             <div className="col-content">
               <div className="list-item">
                 <p className="item-title">
-                  BE, Computer Science & Engineering @{" "}
-                  <span className="highlight">BMSIT&M</span>
+                  BE - Computer Science & Engineering
+                  <br />@
+                  <span className="highlight">
+                    {" BMS Institute of Technology & Management"}
+                  </span>
                 </p>
                 <p className="item-subtitle">Bengaluru, Karnataka</p>
                 <p className="item-date">2025 - 2029</p>
+              </div>
+              <div className="list-item">
+                <p className="item-title">
+                  Secondary Education @
+                  <span className="highlight">{" Delhi Public School"}</span>
+                </p>
+                <p className="item-subtitle">Dhanbad, Jharkhand</p>
               </div>
             </div>
           </div>
