@@ -25,7 +25,7 @@ const Hero = () => {
             with <span className="highlight-purple">modern technologies</span>.
           </h2>
           <p className="tech-stack">
-            React.js • Golang • PostgreSQL • HTML/CSS • JavaScript
+            Golang • React.js • JavaScript • PostgreSQL • HTML/CSS
           </p>
         </div>
       </div>

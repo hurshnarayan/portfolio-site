@@ -16,6 +16,7 @@ const ProjectsPage = () => {
 
       // Calculate how much of the timeline is visible
       const timelineTop = timelineRect.top;
+      0;
       const timelineHeight = timelineRect.height;
 
       // Start animation when timeline enters viewport
@@ -58,7 +59,7 @@ const ProjectsPage = () => {
         "Export functionality for educational institutions",
       ],
       tech: ["React.js", "Golang", "PostgreSQL", "WebSocket"],
-      link: "https://github.com/harshnarayan",
+      link: "https://github.com/hurshnarayan",
     },
     {
       date: "Dec 2024",

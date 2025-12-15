@@ -61,7 +61,8 @@ const Footer = () => {
         </div>
 
         <p className="footer-credit">
-          Made with ❤️ by Harsh © {new Date().getFullYear()}
+          Made with ❤️ by Harsh <span className="copyright">©</span>{" "}
+          {new Date().getFullYear()}
         </p>
       </div>
     </footer>

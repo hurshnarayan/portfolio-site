@@ -105,6 +105,12 @@
   font-family: "Gabarito", sans-serif;
 }
 
+.copyright {
+  position: relative;
+  color: #666;
+  top: 2px; /* tweak: 0.5px – 1.5px depending on font */
+}
+
 @media (max-width: 768px) {
   .footer {
     padding: 40px 1rem 30px;
