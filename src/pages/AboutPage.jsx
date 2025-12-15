@@ -72,14 +72,14 @@ const AboutPage = () => {
               <div className="col-content">
                 <div className="list-item">
                   <p className="item-title">
-                    Full-Stack Developer @{" "}
+                    Full-Stack Developer @
                     <span className="highlight">Personal Projects</span>
                   </p>
                   <p className="item-date">2024 - Present</p>
                 </div>
                 <div className="list-item">
                   <p className="item-title">
-                    Student Developer @{" "}
+                    Student Developer @
                     <span className="highlight">BMSIT&M</span>
                   </p>
                   <p className="item-date">August 2025 - Present</p>
@@ -110,7 +110,7 @@ const AboutPage = () => {
                     <span className="highlight">Delhi Public School</span>
                   </p>
                   <p className="item-subtitle">Dhanbad</p>
-                  <p className="item-date">Completed 2025</p>
+                  <p className="item-date">Completed 2023</p>
                 </div>
               </div>
             </div>
@@ -147,15 +147,15 @@ const AboutPage = () => {
                     <br />
                     PostgreSQL
                     <br />
-                    HTML/CSS
-                    <br />
                     JavaScript
                     <br />
+                    HTML/CSS
+                    <br />
                     Git/GitHub
-                    <br />
-                    Vite
-                    <br />
-                    VS Code
+                    {/* <br />
+                    Vite */}
+                    {/* <br />
+                    VS Code */}
                   </p>
                 </div>
               </div>

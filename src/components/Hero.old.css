@@ -21,6 +21,173 @@
   align-items: center;
 }
 
+/* Actual code snippets floating with animations */
+.code-snippets {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.code-snippet {
+  position: absolute;
+  font-family: "Courier New", monospace;
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: #8d99ae;
+  /* color: #d1d5db; */
+  opacity: 0;
+  white-space: nowrap;
+}
+
+/* Animation: Float up from bottom and fade */
+@keyframes floatUpFade {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  15% {
+    opacity: 0.6;
+    /* opacity: 0.6; default */
+  }
+  85% {
+    opacity: 0.6;
+    /* opacity: 0.6; default */
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+}
+
+/* Animation: Float from left */
+@keyframes floatFromLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  15% {
+    opacity: 0.6;
+  }
+  85% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(100px) translateY(-50px);
+  }
+}
+
+/* Animation: Float from right */
+@keyframes floatFromRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  15% {
+    opacity: 0.6;
+  }
+  85% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(-100px) translateY(-50px);
+  }
+}
+
+/* Animation: Diagonal float */
+@keyframes floatDiagonal {
+  0% {
+    opacity: 0;
+    transform: translate(-50px, 100px);
+  }
+  15% {
+    opacity: 0.6;
+  }
+  85% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(50px, -100px);
+  }
+}
+
+.snippet-1 {
+  bottom: 20%;
+  left: 15%;
+  animation: floatUpFade 8s ease-in-out infinite;
+  animation-delay: 0s;
+}
+
+.snippet-2 {
+  bottom: 10%;
+  right: 20%;
+  animation: floatFromRight 10s ease-in-out infinite;
+  animation-delay: 1s;
+}
+
+.snippet-3 {
+  bottom: 30%;
+  left: 10%;
+  animation: floatFromLeft 9s ease-in-out infinite;
+  animation-delay: 2s;
+}
+
+.snippet-4 {
+  bottom: 25%;
+  right: 15%;
+  animation: floatUpFade 11s ease-in-out infinite;
+  animation-delay: 3s;
+}
+
+.snippet-5 {
+  bottom: 15%;
+  left: 25%;
+  animation: floatDiagonal 8s ease-in-out infinite;
+  animation-delay: 4s;
+}
+
+.snippet-6 {
+  bottom: 35%;
+  right: 10%;
+  animation: floatFromRight 9s ease-in-out infinite;
+  animation-delay: 5s;
+}
+
+.snippet-7 {
+  bottom: 40%;
+  left: 20%;
+  animation: floatUpFade 10s ease-in-out infinite;
+  animation-delay: 6s;
+}
+
+.snippet-8 {
+  bottom: 18%;
+  right: 25%;
+  animation: floatFromLeft 8s ease-in-out infinite;
+  animation-delay: 7s;
+}
+
+.snippet-9 {
+  bottom: 28%;
+  left: 18%;
+  animation: floatDiagonal 9s ease-in-out infinite;
+  animation-delay: 8s;
+}
+
+.snippet-10 {
+  bottom: 22%;
+  right: 18%;
+  animation: floatUpFade 11s ease-in-out infinite;
+  animation-delay: 9s;
+}
+
 .greeting-bubble {
   display: inline-block;
   background-color: #e3f2fd;

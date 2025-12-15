@@ -4,6 +4,26 @@ const Hero = () => {
   return (
     <section className="hero">
       <div className="hero-container">
+        {/* Actual code snippets floating with animations */}
+        <div className="code-snippets">
+          <span className="code-snippet snippet-1">const App = () =&gt;</span>
+          <span className="code-snippet snippet-2">func main() &#123;</span>
+          <span className="code-snippet snippet-3">
+            import React from 'react'
+          </span>
+          <span className="code-snippet snippet-4">SELECT * FROM users</span>
+          <span className="code-snippet snippet-5">background: #fff;</span>
+          <span className="code-snippet snippet-6">router.GET("/api")</span>
+          <span className="code-snippet snippet-7">useState([])</span>
+          <span className="code-snippet snippet-8">defer db.Close()</span>
+          <span className="code-snippet snippet-9">
+            &lt;div className="hero"&gt;
+          </span>
+          <span className="code-snippet snippet-10">
+            return &#123; data &#125;
+          </span>
+        </div>
+
         <div className="greeting-bubble">
           <span>Hi! My name is...</span>
         </div>
