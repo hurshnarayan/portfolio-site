@@ -40,7 +40,7 @@ const Projects = () => {
       description:
         "A comprehensive attendance management system with React, Golang, PostgreSQL, and WebSocket real-time communication.",
       bgColor: "#FFE5B4",
-      link: "https://github.com/hurshnarayan",
+      link: "https://github.com/hurshnarayan/attendx-smart-attendance",
     },
     {
       title: "Portfolio Website",

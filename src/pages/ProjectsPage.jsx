@@ -59,7 +59,7 @@ const ProjectsPage = () => {
         "Export functionality for educational institutions",
       ],
       tech: ["React.js", "Golang", "PostgreSQL", "WebSocket"],
-      link: "https://github.com/hurshnarayan",
+      link: "https://github.com/hurshnarayan/attendx-smart-attendance",
     },
     {
       date: "Dec 2024",
