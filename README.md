@@ -2,7 +2,7 @@
 
 A modern, colorful, and playful portfolio website built with React.js and Vite, inspired by creative design principles.
 
-## 🚀 Features
+## Features
 
 - **Colorful & Playful Design**: Vibrant color scheme with smooth animations
 - **Fully Responsive**: Works perfectly on desktop, tablet, and mobile devices
@@ -11,14 +11,14 @@ A modern, colorful, and playful portfolio website built with React.js and Vite, 
 - **Smooth Animations**: Engaging user experience with CSS animations
 - **Fast Loading**: Optimized build with Vite
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **React.js** - UI library
 - **Vite** - Build tool and dev server
 - **JavaScript (SWC)** - Fast JavaScript compiler
 - **CSS3** - Styling with animations and gradients
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 harsh-portfolio/
@@ -45,7 +45,7 @@ harsh-portfolio/
 └── vite.config.js
 ```
 
-## 🎨 Design Features
+## Design Features
 
 ### Hero Section
 - Animated colorful name display with each letter in different colors
@@ -69,7 +69,7 @@ harsh-portfolio/
 - Back to top button
 - Colorful highlighted text
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Node.js (v14 or higher)
@@ -108,7 +108,7 @@ The optimized files will be in the `dist` folder.
 npm run preview
 ```
 
-## 🎨 Customization Guide
+## Customization Guide
 
 ### Changing Colors
 
@@ -148,7 +148,7 @@ const projects = [
 3. **Social Links**: Edit `src/components/Footer.jsx`
 4. **Name & Description**: Edit `src/components/Hero.jsx`
 
-## 📱 Deployment
+## Deployment
 
 ### Deploy to Vercel
 ```bash
@@ -165,7 +165,7 @@ vercel
 2. Upload contents of `dist` folder to your web server
 3. Configure your DNS to point to your server
 
-## 🎓 Learning Resources
+## Learning Resources
 
 This project is built to be beginner-friendly. Here's what you can learn:
 
@@ -175,17 +175,12 @@ This project is built to be beginner-friendly. Here's what you can learn:
 - **Gradient Backgrounds**: Creating beautiful color combinations
 - **Vite Configuration**: Modern build tool setup
 
-## 📄 License
+## License
 
 This project is open source and available under the MIT License.
 
-## 👤 Author
 
-**Harsh Narayan**
-- Portfolio: [harshnarayan.dev](https://harshnarayan.dev)
-- GitHub: [@harshnarayan](https://github.com/harshnarayan)
-
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Design inspiration from modern portfolio websites
 - Color schemes from various design resources
